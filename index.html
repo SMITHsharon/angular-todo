@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>NSS Angular</title>
+  <title>NSS Angular Todo</title>
 
   <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,6 +52,17 @@
         <div ng-show="!showListView">
 
           <h3>New Todo</h3>
+            <form>
+                <div class="form-group">
+                    <label>Task Description</label>
+                    <input type="text" class="form-control" placeholder="Some important task"ng-model="newTask.task"/>
+                </div>
+                <div class="form-group">
+                    <label>Assigned To</label>
+                    <input type="text" class="form-control" placeholder="Zoe" ng-model="newTask.assignedTo"/>
+                </div>
+                <button class="btn btn-default" ng-click="addNewItem()">Submit</button>
+            </form>
 
         </div>
         <div ng-show="showListView">
@@ -106,11 +117,15 @@
 
   
   <div id="promises"></div>
-  
 
+  <!-- third-party scripts -->
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
   <script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+  <!-- personal scripts -->
+  <script type="text/javascript" src="./javascripts/app.js"></script>
+  <script type="text/javascript" src="./javascripts/AppConstants.js"></script>
   <script type="text/javascript" src="./javascripts/main.js"></script>
 
 </body>
