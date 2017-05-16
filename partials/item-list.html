@@ -8,7 +8,7 @@
               <input type="checkbox" name="" ng-checked="item.isCompleted"/>
             </div>
             <div class="col-xs-7">{{item.task}}</div>
-            <div class="col-xs-1 col-xs-offset-2">{{item.assignedTo}}</div>            
+            <div class="col-xs-1 col-xs-offset-2" ng-cloak>{{item.assignedTo}}</div>            
             <div class="col-xs-1">
               <button class="btn btn-danger fa fa-trash-o"></button>
             </div>
@@ -24,7 +24,7 @@
               <input type="checkbox" name="" ng-checked="item.isCompleted"/>
             </div>
             <div class="col-xs-7">{{item.task}}</div>
-            <div class="col-xs-1  col-xs-offset-2">{{item.assignedTo}}</div>            
+            <div class="col-xs-1  col-xs-offset-2" ng-cloak>{{item.assignedTo}}</div>            
             <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o"></button></div>
         </div>
     </div>
