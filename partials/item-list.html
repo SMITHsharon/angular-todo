@@ -7,7 +7,7 @@
             <div class="col-xs-1">
               <input type="checkbox" name="" ng-model="item.isCompleted" ng-checked="item.isCompleted" ng-change="inputChange(item.id)"/>
             </div>
-            <div class="col-xs-7">{{item.task}}</div>
+            <div class="col-xs-7" ng-cloak><a ng-href="#!/item/view/{{item.id}}">{{item.task}}</a></div>
             <div class="col-xs-1 col-xs-offset-2" ng-cloak>{{item.assignedTo}}</div>            
             <div class="col-xs-1">
               <button class="btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button>
@@ -23,17 +23,10 @@
             <div class="col-xs-1">
               <input type="checkbox" ng-model="item.isCompleted" ng-checked="item.isCompleted"  ng-change="inputChange(item.id)" name=""/>
             </div>
-            <div class="col-xs-7">{{item.task}}</div>
+            <div class="col-xs-7" ng-cloak><a ng-href="#!/item/view/{{item.id}}">{{item.task}}</a></div>
             <div class="col-xs-1  col-xs-offset-2" ng-cloak>{{item.assignedTo}}</div>            
             <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button></div>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-          
-        </div>
+   

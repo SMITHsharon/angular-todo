@@ -10,4 +10,5 @@ app.controller("ItemNewCtrl", function($http, $location, $q, $scope, FIREBASE_CO
       console.log("Add error", error);
     });
   };
+  
 });
