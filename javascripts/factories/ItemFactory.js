@@ -18,6 +18,7 @@ let getItemList = () => {
     });
   };
 
+
   let postNewItem = (newItem) => {
     return $q ((resolve, reject) => {
       $http.post(`${FIREBASE_CONFIG.databaseURL}/items.json`, JSON.stringify(newItem))
@@ -30,6 +31,19 @@ let getItemList = () => {
     });
   };
 
-  return {getItemList:getItemList, postNewItem:postNewItem}; 
+
+  let deletz = (id) => {
+    return $q((resolve, reject) => {
+      $http.delete(`${FIREBASE_CONFIG.databaseURL}/items/${id}.json`)
+      .then((resultz) => {
+        resolve(resultz);
+      })
+      .catch((error) => {
+        reject(error);
+      });
+    });
+  };
+
+  return {getItemList:getItemList, postNewItem:postNewItem, deletz:deletz}; 
 
 });
