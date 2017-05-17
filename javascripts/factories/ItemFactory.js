@@ -46,6 +46,24 @@ let getItemList = () => {
     });
   };
 
-  return {getItemList:getItemList, postNewItem:postNewItem, deletz:deletz}; 
+
+  let editItem = (item) => {
+    return $q ((resolve, reject) => {
+      $http.put(`${FIREBASE_CONFIG.databaseURL}/items/${item.id}.json`, JSON.stringify({
+        assignedTo: item.assignedTo,
+        isCompleted: item.isCompleted,
+        task: item.task
+      }))
+      .then((resultz) => {
+        resolve(resultz);
+      })
+      .catch((error) => {
+        reject(error);
+      });
+    });
+
+  };
+
+  return {getItemList:getItemList, postNewItem:postNewItem, deletz:deletz, editItem:editItem}; 
 
 });
