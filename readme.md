@@ -11,7 +11,7 @@ This exercise ...
 ![Angular ToDos | Default List View](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Default%20View%20Lists%20All%20Items.png)
 
 #### Angular ToDos | Add New Task
-![Angular ToDos | Add New Task]()
+![Angular ToDos | Add New Task](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Add%20New%20Item.png)
 
 #### Angular ToDos | Edit Selected Task
 ![Angular ToDos | Edit Selected Task]()
