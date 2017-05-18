@@ -14,5 +14,5 @@ This exercise ...
 ![Angular ToDos | Add New Task](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Add%20New%20Item.png)
 
 #### Angular ToDos | Edit Selected Task
-![Angular ToDos | Edit Selected Task]()
+![Angular ToDos | Edit Selected Task](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Edit%20Selected%20Item.png)
 
