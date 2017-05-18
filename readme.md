@@ -5,7 +5,7 @@
 This exercise ... 
 
 #### Angular ToDos | File Structure
-![Angular ToDos | File Structure]()
+![Angular ToDos | File Structure](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Files%20Structure.png)
 
 #### Angular ToDos | Default List View
 ![Angular ToDos | Default List View]()
