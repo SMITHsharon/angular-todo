@@ -5,7 +5,10 @@
 This exercise ... 
 
 #### Angular ToDos | File Structure
-![Angular ToDos | File Structure](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Files%20Structure.png)
+![Angular ToDos | File Structure](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Files%20Structure%20App.png)
+
+#### Angular ToDos | File Structure / Setup
+![Angular ToDos | File Structure / Setup]()
 
 #### Angular ToDos | Default List View
 ![Angular ToDos | Default List View](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Default%20View%20Lists%20All%20Items.png)
