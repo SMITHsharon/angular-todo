@@ -29,7 +29,7 @@ let getItemList = () => {
         resolve(resultz);
       }).catch((error) => {
         reject(error);
-      })
+      });
     });
   };
 
