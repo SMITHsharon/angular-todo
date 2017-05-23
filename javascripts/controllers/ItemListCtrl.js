@@ -1,9 +1,10 @@
-app.controller("ItemListCtrl", function($scope, ItemFactory) {
+app.controller("ItemListCtrl", function($rootScope, $scope, ItemFactory) {
   
   $scope.items = [];
 
  	let getItems = () => {
-		ItemFactory.getItemList().then((itemz) => {
+ 		// calling getUser to get the userId is technically better then using $rootScope
+		ItemFactory.getItemList($rootScope.user.uid).then((itemz) => {
 		  $scope.items=itemz;
 		}).catch((error) => {
 		  console.log("get Error", error);
