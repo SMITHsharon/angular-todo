@@ -1,10 +1,17 @@
 app.controller("AuthCtrl", function($location, $rootScope, $scope, AuthFactory, UserFactory) {
 
-	// $scope.auth = {
-	// 	email: "s.s@gmail.com",
-	// 	password: "123456"
-	// };
+	$scope.auth = {
+		email: "s.s@gmail.com",
+		password: "123456"
+	};
 
+	if ($location.path() === '/logout') {
+	  AuthFactory.logout();
+	  $rootScope.user = {};
+	  $location.url('/auth');
+	}
+
+	
 	let logMeIn = () => {
 		AuthFactory.authenticate($scope.auth).then((userCreds) => {
 			return UserFactory.getUser(userCreds.uid);
