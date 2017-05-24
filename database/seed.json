@@ -4,19 +4,29 @@
             "isCompleted": true,
             "task": "mow the lawn",
             "assignedTo": "Callan",
-            "uid": "WPGJU3agEQc7GmDqU1MB4WGyK6J2"
+            "uid": "WPGJU3agEQc7GmDqU1MB4WGyK6J2",
+            "dueDate": "2017-05-26T05:00:00.000Z"
         },
         "item1": {
             "isCompleted": false,
-            "task": "grade quizzes",
-            "assignedTo": "Lauren",
-            "uid": "hn8F6rQKHVYJWePJTms4rxFU4X53"
+            "task": "go to store",
+            "assignedTo": "Zoe",
+            "uid": "WPGJU3agEQc7GmDqU1MB4WGyK6J2",
+            "dueDate": "2017-05-26T05:00:00.000Z"
         },
         "item2": {
             "isCompleted": false,
+            "task": "grade quizzes",
+            "assignedTo": "Lauren",
+            "uid": "hn8F6rQKHVYJWePJTms4rxFU4X53",
+            "dueDate": "2017-05-26T05:00:00.000Z"
+        },
+        "item3": {
+            "isCompleted": false,
             "task": "take a nap",
             "assignedTo": "Zoe",
-            "uid": "hn8F6rQKHVYJWePJTms4rxFU4X53"
+            "uid": "hn8F6rQKHVYJWePJTms4rxFU4X53",
+            "dueDate": "2017-05-26T05:00:00.000Z"
         }
     },
     "users": {

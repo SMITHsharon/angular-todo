@@ -17,14 +17,15 @@
 </div>
 
 <h3>Completed</h3>
-<div ng-repeat="item in items | filter:{isCompleted:true}">
+<div ng-repeat="item in items | orderBy: 'dueDate' | filter:{isCompleted:true}">
     <div class="panel panel-default">
         <div class="panel-body">
             <div class="col-xs-1">
               <input type="checkbox" ng-model="item.isCompleted" ng-checked="item.isCompleted"  ng-change="inputChange(item.id)" name=""/>
             </div>
             <div class="col-xs-7" ng-cloak><a ng-href="#!/item/view/{{item.id}}">{{item.task}}</a></div>
-            <div class="col-xs-1  col-xs-offset-2" ng-cloak>{{item.assignedTo}}</div>            
+            <div class="col-xs-2" ng-cloak>{{item.dueDate | date: 'shortDate'}}</div>
+            <div class="col-xs-1" ng-cloak>{{item.assignedTo}}</div>            
             <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button></div>
         </div>
     </div>
