@@ -29,6 +29,25 @@
             "dueDate": "2017-05-26T05:00:00.000Z"
         }
     },
+    "tools": {
+        "tool0": {
+            "itemId": "item1",
+            "implement": "shovel"
+        },
+        "tool1": {
+            "itemId": "item1",
+            "implement": "shoes"
+        },
+        "tool2": {
+            "itemId": "item0",
+            "implement": "goat"
+        },
+        "tool3": {
+            "itemId": "item2",
+            "implement": "goat"
+        }
+
+    },
     "users": {
         "user0": {
             "uid" : "WPGJU3agEQc7GmDqU1MB4WGyK6J2",
