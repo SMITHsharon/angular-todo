@@ -19,3 +19,7 @@ This exercise ...
 #### Angular ToDos | Edit Selected Task
 ![Angular ToDos | Edit Selected Task](https://raw.githubusercontent.com/SMITHsharon/angular-todo/screens/screens/Angular%20ToDos%20%7C%20Edit%20Selected%20Item.png)
 
+
+
+#### The Deployed App
+`https://fir-todo-c113d.firebaseapp.com/`
